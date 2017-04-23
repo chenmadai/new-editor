@@ -1,0 +1,1 @@
+var VG_SPECS = {};
