@@ -4,7 +4,7 @@
   (factory((global.vega = global.vega || {})));
 }(this, (function (exports) { 'use strict';
 
-var version = "3.0.0-beta.29";
+var version = "3.0.0-beta.30";
 
 function bin$1(_) {
   // determine range
