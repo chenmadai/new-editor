@@ -16385,7 +16385,9 @@ function vlIntervalDomain(name, encoding, field, op) {
     }
   }
 
-  return domain.length && (+domain[0] !== +domain[1]) ? domain : undefined;
+  return domain && domain.length && (+domain[0] !== +domain[1])
+    ? domain
+    : undefined;
 }
 
 function unionInterval(domain, lo, hi) {
