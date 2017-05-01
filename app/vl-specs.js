@@ -170,6 +170,16 @@ var VL_SPECS = {
       "title": "Becker's Barley Trellis Plot"
     }
   ],
+  "Layering": [
+    {
+      "name": "layer_precipitation_mean",
+      "title": "Mean overlay over pecipitation chart"
+    },
+    {
+      "name": "layer_bar_dual_axis",
+      "title": "Dual axis chart created using independent y-scales"
+    }
+  ],
   "Interactive": [
     {
       "name": "brush",
